@@ -27,7 +27,7 @@ const Notifications = () => {
         author: user.displayName
       });
       setText("");
-    } catch (err) { alert("Error al publicar", err); }
+    } catch (err) { alert("Error al publicar: " + err); }
   };
 
   const handleDelete = async (id) => {
