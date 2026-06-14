@@ -49,7 +49,7 @@ const Notifications = () => {
             value={text}
             onChange={(e) => setText(e.target.value)}
             placeholder="Escribe el anuncio para la comunidad..."
-            className="w-full bg-slate-950 border border-slate-800 rounded-2xl p-4 text-sm font-medium outline-none focus:ring-2 focus:ring-blue-500 transition-all min-h-[100px]"
+            className="w-full bg-slate-950 border border-slate-800 rounded-2xl p-4 text-sm font-medium outline-none focus:ring-2 focus:ring-blue-500 transition-all min-h-25"
           />
           <button type="submit" className="w-full bg-blue-600 font-black py-4 rounded-2xl mt-4 text-[10px] uppercase tracking-widest active:scale-95 transition-all">Publicar Comunicado</button>
         </form>
