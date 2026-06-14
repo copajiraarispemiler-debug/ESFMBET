@@ -19,7 +19,7 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/ESFMBET">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
