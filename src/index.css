@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-principal: #10b981;  /* Verde esmeralda para balones/dinero */
+  --color-oscuro: #0f172a;     /* Fondos oscuros elegantes */
+  --color-gris-oscuro: #1e293b;
+}
+
+body {
+  background-color: var(--color-oscuro);
+  color: #f8fafc;
+  font-family: system-ui, -apple-system, sans-serif;
+}
