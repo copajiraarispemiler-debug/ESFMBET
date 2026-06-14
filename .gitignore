@@ -1,3 +1,8 @@
+node_modules
+dist
+.env
+.firebase
+functions/node_modules
 # Logs
 logs
 *.log
